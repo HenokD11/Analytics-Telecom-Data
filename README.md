@@ -11,7 +11,7 @@ This project is a data analysis project for the telecom industry. The data is co
 
 Given the data collected from the telecom industry, the project will be to create a dashboard and machine learning model for user churn prediction and also that will help the telecom industry to understand the customers better, to create a better user experience and to make decision for the investors.
 
-# Data
+# Data 
 
 [Raw XLS Data](https://docs.google.com/spreadsheets/d/1e1lgy4vHLlJ4zcful66AiORSLWlqMeSe/edit?usp=sharing&ouid=102748839137430887077&rtpof=true&sd=true) - 
 
