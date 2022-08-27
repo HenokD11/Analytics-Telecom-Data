@@ -2,3 +2,9 @@ __pycache__/
 data/Week1_challenge_data_source.xlsx
 data/Task1_clean_data.csv
 data/Task1_clean_data.csv
+data/top_5_apple.csv
+data/top_10_handset.csv
+data/top_3_manuf.csv
+data/top_5_session.csv
+
+

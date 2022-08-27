@@ -18,7 +18,7 @@ def overview_app():
     number = st.number_input("Enter the number of rows and press enter: ", min_value=None, max_value=None, value=0,
                              step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, disabled=False)
 
-    df = pd.read_csv('./data/cleaned_data2.csv', nrows=number)
+    df = pd.read_csv('./data/Task1_clean_data.csv', nrows=number)
     st.write(df)
 
     st.header("Top 10 handsets used by customers")

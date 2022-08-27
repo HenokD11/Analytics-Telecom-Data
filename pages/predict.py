@@ -6,13 +6,13 @@ from PIL import Image
 
 
 def load_model():
-    pickle_in = open('./models/satisfaction_model.pkl', 'rb')
+    pickle_in = open('./models/grb_model.pkl', 'rb')
     satisfaction_model = pickle.load(pickle_in)
     return satisfaction_model
 
 
 def prdict_app():
-    st.title("Prdict customer satisfaction")
+    st.title("Predict customer satisfaction")
 
     eng_score = st.slider("Engagement score", min_value=0.0,
                           max_value=2.0, step=0.1)
