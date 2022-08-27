@@ -10,7 +10,7 @@ from PIL import Image
 
 sys.path.append(os.path.abspath(os.path.join('./scripts')))
 
-
+@st.cache
 def overview_app():
     st.title("Overview")
     st.write(
@@ -39,13 +39,6 @@ def overview_app():
 
     st.header("User's with most sessions")
     top_5_session = pd.read_csv('./data/top_5_session.csv', nrows=5)
-
-    # print(top_5_session)
-    st.write(top_5_session)
-
-    st.header("Duration Distribution")
-    image = Image.open('./assets/Durationdist.png')
-    st.image(image, caption="Duration Distribution", use_column_width=True)
 
     st.header("Top data usage per applications")
     image = Image.open('./assets/top_data_usage.png')
